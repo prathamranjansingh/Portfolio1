@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#hero-container {
+  margin-top: 6%;
+  padding: 0px 10vw;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#arrowdown {
+  display: flex;
+  height: 3vw;
+  width: 3vw;
+  justify-content: center; /* icon center pe aayega */
+  border-radius: 50%;
+  border: 1.5px solid rgb(147, 147, 147);
+  align-items: center; /* icon center pe aayega */
+}
+
+#arrowdown i {
+  color: rgb(147, 147, 147);
+}
+
+#hero-text {
+  width: 500px;
+  align-items: center;
+}
+
+#hero-text h1 {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: -1.2px;
+  padding-bottom: 15px;
+}
+
+#hero-text h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#visit {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+#visit p {
+  color: rgb(147, 147, 147);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#hero-img {
+  top: 25%;
+  position: relative;
+  overflow: hidden;
+  height: 280px;
+  width: 250px;
+}
+
+#hero-img img {
+  top: 1%;
+  left: -27%;
+  height: 100%;
+  width: 150%;
+  position: absolute;
+  object-fit: cover;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px 10vw;
+}
+
+#lnav {
+  display: flex;
+  gap: 30px;
+}
+
+#nav a {
+  display: inline-block; /*animate krne ke liye  bina inline block ke support nhi karega*/
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#pphoto {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  left: -2%;
+}
+
+#pphoto #name-text {
+  left: -13%;
+  position: absolute;
+  z-index: 1;
+}
+
+#name-text h1 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -1.2px;
+}
+
+#about-container {
+  width: 100%;
+  margin-top: 10%;
+  padding: 0px 10vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#about-txt {
+  width: 100%;
+}
+#about-txt h2 {
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  font-size: 30px;
+}
+#about-me p {
+  line-height: 1.45;
+  font-weight: 300;
+  font-size: 18.5px;
+  letter-spacing: 0.7px;
+  align-items: center;
+}
+
+#about-me span {
+  display: inline-block; /*iske bina nhi aayega height and width span ke img ka */
+  margin-left: 10px;
+  margin-right: 10px; /*span and space ka gap hai ye*/
+  border-radius: 100px;
+  margin-bottom: -8.3;
+}
+
+#OneSpan {
+  background-image: url(./images/Football.jpg);
+  background-size: cover;
+  height: 30px;
+  width: 55px;
+}
+
+#TwoSpan {
+  height: 30px;
+  width: 60px;
+  background-size: cover;
+  background-image: url(./images/virtual.jpg);
+}
+
+#gallery-container {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 10vw;
+  margin-top: 10%;
+}
+
+#gallery-container h2 {
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  font-size: 30px;
+}
+
+#galfirstimg {
+  line-height: 1.45;
+  font-weight: 300;
+  font-size: 18.5px;
+  letter-spacing: 0.7px;
+  width: 22vw;
+  margin: 0px 30px;
+}
+
+#galfirstimgdiv {
+  margin-bottom: 20px;
+  height: 25vw;
+  width: 100%;
+}
+
+#galfirstimgdiv img,
+#galsecimgdiv img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#galsecondimg {
+  width: 25svw;
+  line-height: 1.45;
+  font-weight: 300;
+  font-size: 18.5px;
+  letter-spacing: 0.7px;
+}
+
+#galsecimgdiv {
+  margin-bottom: 20px;
+  height: 35vw;
+  width: 100%;
+}
+
+/* BANNER CONTAINER */
+
+#banner-container {
+  margin-top: 10%;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+#banimg {
+  height: 60vh;
+  width: 55%;
+}
+
+#banimg img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: 0% 10%;
+}
+#bantxt {
+  padding: 0 2vw;
+  width: 45%;
+}
+
+#bantxt h2 {
+  font-weight: 400;
+  letter-spacing: -1.2px;
+  font-size: 30px;
+}
+
+#bantxt p {
+  margin-top: 30px;
+  line-height: 1.45;
+  font-weight: 300;
+  font-size: 18.5px;
+  letter-spacing: 0.7px;
+  align-items: center;
+}
+
+#video-container {
+  margin-top: 10%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#video-container video {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#vidtxt {
+  display: flex;
+  flex-direction: column; /*column vice kr dega aur middle pe le aayega dono element ko */
+  align-items: center;
+  position: relative;
+  z-index: 999;
+}
+
+#vidtxt h3 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1.2px;
+  padding-bottom: 15px;
+}
+
+#vidtxt button {
+  margin-top: 10px;
+  padding: 1.4vw 1.7vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+  border-radius: 100px;
+  background-color: rgb(186, 219, 249);
+  border: 3px solid rgb(179, 212, 241);
+  color: rgb(54, 156, 245);
+}
